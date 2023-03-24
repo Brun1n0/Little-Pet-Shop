@@ -300,3 +300,307 @@ color: black;
 }
 
 
+
+BRUNO
+CODIGO PRODUTO01
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+    <title>Document</title>
+</head>
+<body>
+    <div id="container_master">
+        <div id="produto_img">
+            <p>imagem</p>
+        </div>
+
+        <div id="container_produtos">
+            <div class="card">
+                <img src="img/racao 1.webp">
+                <p>Ração Pedigree de Silíca para gatos</p> 
+                <p>R$ 35,20</p>
+            </div>
+            <div class="card">
+                <img src="img/racao2.webp">
+                <p>Ração Pedigree Biscrok de biscoito para cachorros </p>
+            </div> 
+            <div class="card">
+                <img src="img/racao3.webp">
+                <p>Ração Golden premium de Carne e arroz para cachorros filhotes</p>
+            </div> 
+            <div class="card">
+                <img src="img/racao4.webp">
+                <p>Ração Pedigree de Cordeiro ao molho para cachorros</p>
+            </div> 
+            <div class="card">
+                <img src="img/racao5.jpg">
+                <p>Ração Friskies de Frango para gatos filhotes</p>
+            </div> 
+            <div class="card">
+                <img src="img/racao6.webp">
+                <p>Ração Friskies de Salmão para gatos</p>
+            </div> 
+            <div class="card">
+                <img src="img/racao7.jpg">
+                <p>Ração GranPlus Gourmet de Frango para gatos</p>
+            </div> 
+            <div class="card">
+                <img src="img/racao8.jpg">
+                <p>Ração Pedigree de Carne para cachorros adultos </p>
+            </div>    
+            <div class="card">
+                <img src="img/racao9.webp">
+                <p>Ração Friskies de Peixe branco para gatos filhotes</p>
+            </div>     
+        </div>
+
+    </div>
+</body>
+</html>
+
+CSS 
+#container_produtos{
+    width: 990px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#produto_img{
+    width: 237px;
+}
+
+.card{
+    width: 250px;
+    height: 300px;
+    margin: 15px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#container_master {
+      display: flex;
+      flex-direction: row;
+}
+
+
+
+CODIGO SOBRE 
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <a href="css/estilo.css">
+            <img id="logo" src="img/Logo pet.png" alt="Logo do site" />
+        </a>
+    </header>
+    
+    <div id="bannergato">
+        <h1>Quem Somos</h1>
+    </div>
+
+    <div id="container"> 
+        
+        <div id="frm-container">
+            <div><img src="img/video-animais.png" id="frm-vd"></div>
+            <div class="texto">
+                <h1> Somos a Little Pet Shop </h1>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas congue mi tortor, vitae maximus mauris
+                semper
+                non. Morbi malesuada a arcu sed blandit. Phasellus quis mauris ac velit commodo condimentum vel ac
+                purus.
+                Phasellus libero lorem, auctor ut ex nec, aliquam dictum nunc. Morbi non tristique tortor. Aenean ac
+                lobortis
+                nisi. Nulla nisi tellus, faucibus a gravida in, tempor a ante. Morbi dui urna, laoreet eu dapibus sit
+                amet,
+                porttitor non elit. Curabitur vitae eros ac nunc bibendum ullamcorper ut finibus purus. Ut tristique
+                rhoncus
+                ultricies. Maecenas finibus lectus justo, id rhoncus felis vestibulum auctor. Nunc in ipsum ullamcorper,
+                fringilla arcu nec, sagittis augue. Vivamus faucibus nisl eget enim eleifend rutrum. Nullam placerat
+                eros ac
+                varius convallis. Suspendisse odio libero, finibus vitae sodales non, blandit vitae massa.
+            </div>
+        </div>
+    </div>
+
+    <div id="container2">
+        <div id="frm-container3">
+            <div class="textos">
+                <h1> Nosso Site </h1>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas congue mi tortor, vitae maximus mauris
+                semper
+                non. Morbi malesuada a arcu sed blandit. Phasellus quis mauris ac velit commodo condimentum vel ac
+                purus.
+                Phasellus libero lorem, auctor ut ex nec, aliquam dictum nunc. Morbi non tristique tortor. Aenean ac
+                lobortis
+                nisi. Nulla nisi tellus, faucibus a gravida in, tempor a ante. Morbi dui urna, laoreet eu dapibus sit
+                amet,
+                porttitor non elit. Curabitur vitae eros ac nunc bibendum ullamcorper ut finibus purus. Ut tristique
+                rhoncus
+                ultricies. Maecenas finibus lectus justo, id rhoncus felis vestibulum auctor. Nunc in ipsum ullamcorper,
+                fringilla arcu nec, sagittis augue. Vivamus faucibus nisl eget enim eleifend rutrum. Nullam placerat
+                eros ac
+                varius convallis. Suspendisse odio libero, finibus vitae sodales non, blandit vitae massa.
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div id="footer">
+           <h2>Siga - Nos</h2>
+        </div>
+
+        <div id="youtube">
+            <img src="img/youtube.png">
+        </div>
+
+        <div id="instagram">
+            <img src="img/instagram.png">
+        </div>
+
+        <div id="facebook">
+            <img src="img/facebook.png">
+        </div>
+
+        <div id="Conteudo">
+            <h2>Conteúdo</h2>
+            <p>Fale Conosco</p>
+            <p>Quem Somos</p>
+        </div>
+    
+    </footer>
+
+
+</body>
+
+</html>
+  
+  CSS
+  
+body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    height: 110px;
+    background-color: #2980B9;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 80px;
+    padding: 15px 30px;
+}
+
+#bannergato {
+    width: 100%;
+    background-image: url("../img/Rectangle25.png");
+    background-size: cover;
+    height: 217px;
+    min-height: 217px;
+}
+
+#container {
+    flex-direction: column;
+
+}
+
+#frm-container {
+    display: flex;
+    padding: 10px;
+    padding-top: 5px;
+}
+
+#frm-img {
+    width: 1536px;
+    height: 250px;
+    left: 0px;
+    top: 147px;
+}
+
+#frm-vd {
+    width: 700px;
+    height: 400px;
+    left: 50px;
+    top: 57px;
+    margin-top: 40px;
+    margin-left: 45px;
+}
+
+.texto {
+    width: 504.78px;
+    height: 400px;
+    left: 929.98px;
+    top: 550.19px;
+
+    font-family: 'Joti One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    margin-left: 34px;
+    color: #000000;
+}
+
+.textos {
+    width: 1081.34px;
+    height: 308.44px;
+    left: 97px;
+    top: 988.07px;
+    font-family: 'Joti One';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 40px;
+    margin-left: 45px;
+}
+
+#gato {
+    width: 100%;
+    height: 200px;
+}
+
+footer {
+    background-color: #2980B9;
+    color: white;
+    font-size: 16px;
+    margin-top: auto;
+    padding-top: 15px;
+    padding-left: 50px;
+    justify-content: space-around;
+}
+
+#conteudo {
+    text-align: center;
+
+
+
+
+
