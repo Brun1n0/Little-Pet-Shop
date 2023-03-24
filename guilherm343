@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Little Pet Shop</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+    <link rel="icon" type="imagem/png" href="img/Logo pet.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <!-- Topo de cabeçalho do site -->
+    <header>
+        <a href="home.html">
+            <img id="logo" src="img/Logo pet.png" alt="Logo do site" />
+        </a>
+        <div id="container-paginicial">
+            <div id="frm-cep"><img src="img/Vector.png"> informar CEP</div>
+            <div id="frm-container">
+                <div id="frm-barra">
+                    <input name="frm-nome" type="text" placeholder="Digite o que você procura" required />
+                </div>
+            </div>
+            <div id="frm-atendimento"> <a href="#"><img src="img/🦆 icon _Headset_.png">
+                Atendimento
+            </a>    
+            </div>
+            <div id="frm-carrinho"><a href="#"><img src="img/carrinho.png" alt="carrinho site"></a></div>
+            <div id="frm-cadastro">
+               <a href="#"> <img src="img/cadastro-opcoes.png" alt="cadastro-opcoes"></a>
+            </div>
+        </div>
+
+    </header>
+
+<div id="menu-drop-down">
+    <ul>
+
+        <li class="dropdown">
+            <a href="#" class="dropbtn">Rações <img src="img/sda.png" alt="Icone Seta" />
+            </a>
+            <div class="dropdown-content">
+                <a href="#">Rações 1 </a>
+                <a href="#">Rações 2</a>
+                <a href="#">Rações 3</a>
+            </div>
+        </li>
+
+        <li class="dropdown">
+            <a href="#" class="dropbtn">Pets <img src="img/sda.png" alt="Icone Seta" />
+            </a>
+            <div class="dropdown-content">
+                <a href="#">Cães</a>
+                <a href="#">Gatos</a>
+                <a href="#">Peixes</a>
+                <a href="#">Aves</a>
+                <a href="#">Outros Pets</a>
+            </div>
+        </li>
+
+        <li>
+            <a href="#" class="dropbtn brinquedos">Brinquedos 
+             </a>
+        </li>
+
+        <li class="dropdown">
+            <a href="#" class="dropbtn">Marcas <img src="img/sda.png" alt="Icone Seta" />
+            </a>
+            <div class="dropdown-content">
+                <p>
+                    <img class="imgMarca" src="img/marca1.webp" alt="" />
+                    <img class="imgMarca" src="img/marca2.webp" alt="" />
+                </p>
+               
+                <p><img class="imgMarca" src="img/marca3.webp" alt="" /></p>
+            </div>
+        </li>
+
+
+         <li class="dropdown">
+            <a href="#"class="active super-ofertas" >Super ofertas
+            </a>
+        </li>
+
+    </ul>
+</div>
+
+<div id="container-home">
+    <div id="frm-imagem">
+        <img id="imagem"src="img/banner.webp" />
+    </div>
+</div>
+
+<div id="rações-home">
+    <h2>Seu pet também pode gostar</h2>
+</div>
+
+</body>
+
+</html>
+
+CSS
+
+body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+}
+
+
+
+  /* cabecalho-home */
+
+header {
+display: flex;
+margin-top: -1px; ;
+width: 100%;
+height: 95.48px;
+background: #367CBC;
+}
+
+#logo { 
+margin-left: 43px;
+width: 152px;
+height: 92px;
+top: 2px;
+}
+
+#frm-cep { 
+color: white; 
+margin-top: 30px;
+margin-right: 15.23px;
+width: 142.22px;
+height: 30.53px;
+left: 20px;
+}
+
+#container-paginicial {
+align-content:center ;
+display: flex;
+width: 100%;
+/* margin-right: auto;
+margin-left: auto; */
+justify-content: space-around;
+}   
+
+#frm-container input, textarea {
+width: 500px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 15px;
+padding: 2px 5px;
+}
+
+#frm-barra {
+margin-top: 45px;
+margin-right: 22px;
+width: 490.35px;
+height: 50.79px;
+}
+
+#frm-atendimento {
+color: white;
+margin-left: 9px;
+width: 135.18px;
+height: 35.14px;
+margin-top: 30px;
+
+}
+
+#frm-carrinho {
+color: white;
+margin-top: 30px;
+margin-left:10px; 
+display: flex;
+height: 40px;
+text-decoration: none;
+}
+
+a {
+color: white;
+text-decoration: none;
+}
+
+
+
+/* Nav*/
+
+/* ul {
+    justify-content: space-evenly;
+    background-color: #2E72B0;
+    display: flex;
+    padding: 13px;
+}
+
+ul a {
+color: white;
+text-decoration: none;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} */
+
+
+
+/* DropDown */
+
+
+#menu-drop-down ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2E72B0;
+    overflow: hidden;
+}
+
+#menu-drop-down ul li a {
+    font-size: 20px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+
+
+}#menu-drop-down li {
+    float: left;
+}
+
+/* #menu-drop-down li:last-child {
+    float: right;
+    border-right: none;
+    border-left: 1px solid #bbb;
+} */
+
+#menu-drop-down li a.active, #menu-drop-down .dropdown:hover .dropbtn {
+    font-weight: bold;
+    color: white;
+    cursor:default;
+}
+
+#menu-drop-down li a:hover:not(.active){
+font-weight: bold;
+color: black;
+}
+
+#menu-drop-down li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+#menu-drop-down .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 180px;
+    box-shadow: 0px 10px 15px 0px rgba(0,0,0,0.4);
+    z-index: 1;
+    background-color: white;
+}
+
+#menu-drop-down .dropdown:hover .dropdown-content {
+    display: block ;
+}
+
+#menu-drop-down .dropdown-content a {
+    color: black;
+    padding: 15px 20px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.imgMarca{
+    width: 75px;
+    padding: 5px;
+
+}
+
+.super-ofertas {
+    background-color: yellow;
+    border-radius: 1000px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+#imagem {
+    width: 1092.75px;
+    height: 240.28px;
+    margin-left: 202px;
+    margin-top: 30px;
+    
+    border-radius: 35px;
+   
+}
+
+
